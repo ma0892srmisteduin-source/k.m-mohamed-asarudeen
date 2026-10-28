@@ -45,7 +45,7 @@ import os
 # ============================================================
 
 st.set_page_config(
-    page_title="Cheminformatics Virtual Laboratory",
+    page_title="VIRTUAL LAB BY ASAR",
     page_icon="🧪",
     layout="wide"
 )
@@ -2192,7 +2192,7 @@ generate a complete molecular properties report.
             # 3D VISUALIZATION
             # ------------------------------------------------
 
-            st.subheader("🌐 3D Molecular Visualization")
+            st.subheader("🌐 3D MOLECULAR VISUALIZATION")
 
             model_style = st.selectbox(
 
@@ -2404,7 +2404,7 @@ elif page == "📝 Assessment":
 
             st.balloons()
 
-            st.success("🎉 Excellent performance!")
+            st.success("🎉 BETTER PERFORMANCE!")
 
         elif percentage >= 50:
 
@@ -2506,6 +2506,6 @@ elif page == "📄 Final Project Report":
 st.divider()
 
 st.caption(
-    "🧪 Cheminformatics Virtual Laboratory | "
+    "🧪 VIRTUAL LAB BY ASAR | "
     "Developed using Python, Streamlit and RDKit"
 )
